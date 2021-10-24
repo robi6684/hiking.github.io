@@ -1,0 +1,312 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+    background:url(bg1snow.jpg) ;
+     background-size: cover;
+    
+}
+
+.banner .content{
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+.banner .content h2{
+    margin-top: 300px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: #fff;
+}
+.banner .content h8{
+    margin-left: 40px;
+    font-size: 1.4em;
+    color: azure;
+}
+
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row .col50{
+    position: relative;
+    width: 50%;
+}
+.col50{
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.titletext{
+    color:lightskyblue;
+    font-weight: bolder;
+    font: 20em ;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row .col50 h1{
+    font-size: 3em ;
+
+}
+.row .col50 p{
+    font-size: 1.4em ;
+
+}
+
+.row .col50 .img{
+    position:relative;
+    width: 100%;
+    height: 80vh;
+}
+.row .col50 .img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.row .col50  .img1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    
+    overflow: hidden;
+}
+.row .col50 .img1 img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+}
+
+ .row .col50 h4{
+    font-size: 2em;
+    font-weight: bold;
+    color: lightskyblue;
+}
+.row .col50 h3{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    margin-top: 40px;
+}
+.team .content .box {
+    width:340px;
+    margin: 20px;
+    border:15px solid #ffff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.88);
+}
+.team .content .box .img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.team .content .box .img img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+    
+
+}
+.box .text p{
+    margin-top: 4px;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: lightskyblue;
+}
+.team .content .box .text{
+    padding:15px 0  5px;
+}
+.team .content .box .text h3{
+    font-weight: 500;
+   
+    color: #111;
+}
+
+.item{
+    width: 100%;
+    height: 40vh;
+    padding: 50px 100px;
+    z-index:-1;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(mountain1.jpg);
+    background-size: cover;
+
+}
+.item .nav{
+    position: relative;
+    display: flex;
+    
+}
+.item .nav li{
+    list-style: none;
+    margin-left: 30px;
+  
+    text-decoration: none;
+}
+.item .nav li h4{
+    text-decoration: none;
+    font-weight: 400;
+    color:#fff;
+
+    font-size: 45px;
+}
+
+
+.blog{
+    padding: 0.1px;
+}
+.white p{
+    color: #fff;
+ 
+
+}
+.blog .titletext{
+    color: lightskyblue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.blog .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.blog .content .box{
+    width: 340px;
+    margin: 39px;
+    padding: 40px;
+    background: #fff ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+    flex-direction: column;
+}
+.blog .content .box .img{
+    position: relative;
+    width: 400px;
+    height: 280px;
+    margin-bottom: 20px;
+    
+    
+    overflow: hidden;
+}
+.blog .content .box .img img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+}
+.blog .content .box .text{
+    text-align: center;
+}
+.blog .content .box .text h6{
+    font-weight: 50px;
+    font-size: 20px;
+    
+}
+.blog .content .box .text h3{
+    margin-top: 10px;
+    color:black;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+.blog .content .box .text h6:hover{
+    font-weight: 50px;
+    font-size: 20px;
+    color: lightskyblue;
+    
+}
+.blog .content .box .text h3:hover{
+    margin-top: 10px;
+    color:black;
+    font-size: 25px;
+    font-weight: 100;
+    color: lightskyblue;
+
+
+}
+.content .box .img1{
+    
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left:1px;
+
+
+    
+    
+    
+    overflow: hidden;
+}
+.content .box  .img1 img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.blog .content .box  h6{
+    font-weight: 50px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.blog .content .box  h6:hover{
+    font-weight: 50px;
+    font-size: 20px;
+    color:lightskyblue;
+    
+}

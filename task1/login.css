@@ -1,0 +1,155 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+   
+    background:url(bg1snow.jpg) ;
+     background-size: cover;
+    
+}
+
+.banner .content{
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+.banner .content h2{
+    margin-top: 300px;
+    margin-left: 40px;
+    font-size: 80px;
+    color: #fff;
+}
+.banner .content h8{
+    margin-left: 40px;
+    font-size: 1.4em;
+    color: azure;
+}
+
+section{
+    padding: 50px;
+}
+
+.title .titletext {
+    text-align: center;
+    color:lightskyblue;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.title  h5{
+    text-align: center;
+    color: lightslategrey;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.row{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .row .col50{
+    position: relative;
+    width: 50%;
+}
+  .col50{
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.row .col50 .img{
+    position:relative;
+    width: 100%;
+    height: 80vh;
+}
+.row .col50 .img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.row .col50  .img1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    margin-bottom: 20px;
+    border-radius: 50%;
+    
+    overflow: hidden;
+}
+.row .col50 .img1 img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactform .inputbox input{
+    width: 100%;
+    
+    border: 1px solid #555;
+    padding: 10px;
+    color:#111;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contactform .inputbox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background-color: rgba(27, 148, 223, 0.986);
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    height: 60px;
+    
+
+
+}
+.contactform .check{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactform .google .inputbox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    height: 60px;
+    
+
+
+}
+.contactform a{
+    text-decoration: none;
+}
+.contactform a h5{
+    font-size: 20px;
+    color: lightskyblue;
+    
+}
+.contactform h5{
+    font-size: 20px;
+}

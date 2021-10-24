@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Demo Project</title>
+  </head>
+  <body>
+    <div class="dropdown">
+      <nav>
+        <img src="logo.jpg" class="logo">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PAGES</a>
+          
+            <ul class="new1">
+              <li><a href="task1/about.html">ABOUT US</a></li>
+              <hr>
+              <li><a href="task1/signup.html">SIGNUP</a></li>
+              <hr>
+              <li><a href="task1/login.html">LOGIN</a></li>
+            </ul>
+         
+          </li>
+
+          <li><a href="#">SHOP</a>
+            <ul class="new1">
+              <li><a href="#">SHOP</a></li>
+              <hr>
+              <li><a href="product/prod.html">PRODUCTS</a></li>
+              <hr>
+              <li><a href="wishlist/wishlist.html">WISHLIST</a></li>
+              <hr>
+              <li><a href="#">CART</a></li>
+              <hr>
+              <li><a href="#">CHECKOUT</a></li>
+            </ul></li>
+          <li><a href="blog.html">BLOG</a>
+            <ul class="new1">
+              <li> <a href="blog1.html">BLOG DETAILS</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li> <a class="cta1" href="#"><i class='bx bx-search'></i></a></li>
+          <li> <a class="cta2" href="#"><i class='bx bx-cart' ></i></a></li>
+        </ul>
+
+       
+       
+      </nav>
+
+    </div>
+    <div class="slider-box">
+      <div id="slider" >
+        
+        
+        <img src="IMG_1.jpg" class="newimg">
+        <div class="slider1">
+        <h2>Amazing Mountain To Explore</h2>
+        <h1>Explore The<br>Unexplored World</h1>
+        <p>Hiking is a long, vigorous walk,usually on trails or footpath
+          in the countryside. Walking for pleasure is developed in Europe.</p>
+          <button>GET STARTED</button>
+        </div>
+        
+          <img src="IMG_2.png" >
+          
+          
+            <img src="IMG_3.png" >
+            
+            
+              <img src="IMG_2.png" >
+             
+        
+      
+        
+        </div>
+        
+      
+      <div class="indicators">
+        <span id="btn1" class="active"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+        <span id="btn4"></span>
+
+      </div>
+    </div>
+    <script>
+      var slide = document.getElementById("slider");
+      var btn1 = document.getElementById("btn1");
+      var btn2 = document.getElementById("btn2");
+      var btn3 = document.getElementById("btn3");
+      var btn4 = document.getElementById("btn4");
+
+      btn1.onclick = function()
+      {
+        slide.style.transform = "translateX(0px)";
+        btn1.classList.add("active");
+        btn2.classList.remove("active");
+        btn3.classList.remove("active");
+        btn4.classList.remove("active");
+
+      }
+      btn2.onclick = function()
+      {
+        slide.style.transform = "translateX(-100%)";
+        btn2.classList.add("active");
+        btn1.classList.remove("active");
+        btn3.classList.remove("active");
+        btn4.classList.remove("active");
+      }
+      btn3.onclick = function()
+      {
+        slide.style.transform = "translateX(-200%)";
+        btn3.classList.add("active");
+        btn1.classList.remove("active");
+        btn2.classList.remove("active");
+        btn4.classList.remove("active");
+      }
+      btn4.onclick = function()
+      {
+        slide.style.transform = "translateX(-300%)";
+        btn4.classList.add("active");
+        btn1.classList.remove("active");
+        btn2.classList.remove("active");
+        btn3.classList.remove("active");
+      }
+    </script>
+    <div class="colour">
+      <div class="second">
+        <h4>About Us</h4> <br>
+        <h1>Ten Days Hiking Gear Essentials</h1>
+        <div class="video">
+          <iframe width="400" height="190" src="https://www.youtube.com/embed/KH1pcNUTa6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+        
+      </div>
+      <div class="second-second">
+        <p>
+          Do not follow where the path may be lead. Go instead . Where there is no path and leave a trail. Hiking is a long.Religious pilgrimages have existed much longer but they involve walking .Do not follow where the path may be lead. Go instead . It is a long established fact that.
+         </p>
+
+         <p>
+          Do not follow where the path may be lead. Go instead . Where there is no path and leave a trail. Hiking is a long.Religious pilgrimages have existed much longer but they involve walking .Do not follow where the path may be lead. Go instead .
+
+          Call Us For Immediate Support
+         </p>
+         <p>Call us for immediate support</p>
+         <h1>+880 876 65 455</h1>
+
+      </div>
+    </div>
+    <div class="category">
+      <h1>Our Category</h1>
+    </div>
+   
+    <div class="newcards">
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="img5.jpg">
+            <div class="card-content">
+              <button class="card-btn">
+                Shoes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="img6.jpg">
+            <div class="card-content">
+              <button class="card-btn">
+                Sunglasses
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="img7.jpg">
+            <div class="card-content">
+              <button class="card-btn">
+                Light
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="img8.jpg">
+          <div class="card-content">
+            
+            <button class="card-btn">
+              Navigation Device
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    </div>
+    <div class="category2">
+      <h1>Our Products</h1>
+    </div>
+    <div class="newcards2">
+      <div class="grid2">
+        <div class="grid-item2">
+          <div class="card2">
+            <img class="card-img2" src="img9.jpg">
+            <div class="card-content2">
+              <h1 class="card-header">Hiking Stoves</h1>
+            <p class="card-text">
+              Fireplaces are not allowed on most hiking routes, 
+              so don’t forget to mention a compact stove .
+            </p>
+              <button class="card-btn2">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="grid-item2">
+          <div class="card2">
+            <img class="card-img2" src="img10.jpg">
+            <div class="card-content2">
+              <h1 class="card-header">Hiking Bag Packs</h1>
+            <p class="card-text">
+              Fireplaces are not allowed on most hiking routes, 
+              so don’t forget to mention a compact stove .
+            </p>
+              <button class="card-btn2">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="grid-item2">
+          <div class="card2">
+            <img class="card-img2" src="img11.jpg">
+            <div class="card-content2">
+              <h1 class="card-header">Hiking Shoes</h1>
+            <p class="card-text">
+              Fireplaces are not allowed on most hiking routes, 
+              so don’t forget to mention a compact stove .
+            </p>
+              <button class="card-btn2">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="new-sec">
+        <div class="col">
+          <h1>25+ <br>Projects</h1>
+          
+        </div>
+        <div class="col">
+          <h1>58+ <br>Awards</h1>
+        </div>
+        <div class="col">
+          <h1>20+ <br>Experience</h1>
+        </div>
+        <div class="col">
+          <h1>96+ <br>Team Members</h1>
+        </div>
+      </div>
+      <div class="category2">
+        <h1>Trending Products</h1>
+      </div>
+
+      <div class="newcards3">
+        <div class="grid3">
+          <div class="grid-item3">
+            <div class="card3">
+              <img class="card-img3" src="img12.jpg">
+              <div class="card-content3">
+                <h1 class="card-header3">Hiking Stoves</h1>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                </div>
+                
+                <button class="card-btn3">
+                  Add to Cart
+                </button>
+                <button class="card-btn33">
+                  Quick View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid3">
+          <div class="grid-item3">
+            <div class="card3">
+              <img class="card-img3" src="img13.jpg">
+              <div class="card-content3">
+                <h1 class="card-header3">Hiking Bag Packs</h1>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                </div>
+                <button class="card-btn3">
+                  Add to Cart
+                </button>
+                <button class="card-btn33">
+                  Quick View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid3">
+          <div class="grid-item3">
+            <div class="card3">
+              <img class="card-img3" src="img14.jpg">
+              <div class="card-content3">
+                <h1 class="card-header3">Hiking Shoes</h1>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                </div>
+                <button class="card-btn3">
+                  Add to Cart
+                </button>
+                <button class="card-btn33">
+                  Quick View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid3">
+          <div class="grid-item3">
+            <div class="card3">
+              <img class="card-img3" src="img15.jpg">
+              <div class="card-content3">
+                <h1 class="card-header3">Hiking Shoes</h1>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                </div>
+                <button class="card-btn3">
+                  Add to Cart
+                </button>
+                <button class="card-btn33">
+                  Quick View
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category2">
+        <h1>Our Team</h1>
+      </div>
+      <div class="newcards4">
+        <div class="grid4">
+          <div class="grid-item4">
+            <div class="card4">
+              <img class="card-img4" src="img16.jpg">
+              <div class="card-content4">
+                <h1 class="card-header">John Doe</h1>
+              <p class="card-text4">
+               Manager
+              </p>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid4">
+          <div class="grid-item4">
+            <div class="card4">
+              <img class="card-img4" src="img17.jpg">
+              <div class="card-content4">
+                <h1 class="card-header">Lina Smith</h1>
+              <p class="card-text4">
+               Owner
+              </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid4">
+          <div class="grid-item4">
+            <div class="card4">
+              <img class="card-img4" src="img18.jpg">
+              <div class="card-content4">
+                <h1 class="card-header">Tim Cook</h1>
+              <p class="card-text4">
+                Guide
+              </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=content>
+        <h1 class="alignit">20 Must Have Things For</h1>
+        <h1>Comfortable Hiking Trip</h1>
+        <p>Hiking is a long, vigorous walk,usually on trails or footpath
+          in the countryside. Walking for pleasure is developed in Europe. 
+        </p>
+        <form method="post">
+          <input type="email" name="email" id="email" height="100px" placeholder="Enter your email here" required/>
+            <button type="submit" class="btn">SUBSCRIBE</button>
+        </form>
+      </div>
+      <div class="category2">
+        <h1>Our Blog</h1>
+      </div>
+      <div class="newcards2">
+        <div class="grid5">
+          <div class="grid-item5">
+            <div class="card5">
+              <img class="card-img2" src="img2.jpg">
+              <button class="btn-img"><i class='bx bxs-calendar'></i> 22 AUGUST 2022</button>
+              <div ><p class="img-txt"><b> Bianco is a mountain located in 
+                deep nature.</b>
+              </p>
+              <p class="set1"><i class='bx bxs-user'></i>BY ADMIN</p>
+              <p class="set2"><i class='bx bx-folder-open'></i>BIANCO, ITALY</p>
+            </div>
+
+             
+            </div>
+          </div>
+        </div>
+        <div class="grid5">
+          <div class="grid-item5">
+            <div class="card5">
+              <img class="card-img2" src="img1.jpg">
+              <button class="btn-img"><i class='bx bxs-calendar'></i> 28 JANUARY 2022</button>
+              <div ><p class="img-txt"><b> Telton is a mountain located in 
+                alps.</b>
+              </p>
+              <p class="set1"><i class='bx bxs-user'></i>BY ADMIN</p>
+              <p class="set2"><i class='bx bx-folder-open'></i>TELTON, USA</p></div>
+            </div>
+                
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>Solutions</h2>
+            <a href="#">Ecommerce</a>
+            <a href="#">Account</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Register</a>
+          </div>
+          <div class="footer-heading footer-2">
+            <h2>Company</h2>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-heading footer-3">
+            <h2>Legal</h2>
+            <a href="#">Login</a>
+            <a href="#">Help</a>
+            <a href="#">Checkout</a>
+          </div>
+          <div class="footer-email-form">
+            <div class="img-footer">
+              <img src="logo.jpg">
+            </div>
+            <h2>Subscribe to our Newsletter </h2>
+            <input type="email" placeholder="Enter your mail" id="footer-email">
+            <input type="submit" value="Submit" id="footer-email-btn">
+            <h4 class="add-info">* Nulla porttitor accumsan tincidunt.</h4>
+          </div>
+        </div>
+        <div class="media">
+          <hr>
+          <div class="text">
+            <h3>© Hiko - 2022</h3>
+          </div>
+          <div class="icons">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            
+          </div>
+        </div>
+      </div>
+    
+
+    
+     
+   
+  </body>
+</html>
+  
